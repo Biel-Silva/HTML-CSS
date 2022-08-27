@@ -1,0 +1,198 @@
+@charset "UTF-8";
+
+/*Variaveis*/
+:root{
+    --cor-caracteristica:#926a21;
+}
+
+/*Formatações gerais da página*/
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:url(img/fundo.png) repeat-x;
+    font-size:14px;
+}
+
+a{
+    text-decoration: none;
+    color:#926a21;
+}
+
+.clear{
+    clear: both;
+}
+
+.leia{
+    font-weight: bold;
+    color:var(--cor-caracteristica);
+    text-decoration: underline;
+
+}
+
+/*Cabeçalho*/
+#container{
+    width:71%;
+    margin:0 auto;
+}
+
+#container header{
+    margin-bottom:10px;
+}
+
+#container header h1{
+    float: left;
+    margin-bottom:25px;
+}
+
+#container header h1 a{
+    width:350px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight:300;
+    color:#fff;
+}
+
+#container header h1 a span{
+    color:var(--cor-caracteristica);
+}
+
+#container header nav{
+    margin-top:34px;
+    float:right;
+}
+
+#container header nav a{
+    color:var(--cor-caracteristica);
+    margin-right:10px;
+    padding:5px;
+}
+
+#container header nav a:hover{
+    color:#a8a029;
+    border-bottom:1px solid #535858;
+}
+/*Fim do cabeçalho*/
+
+/*Começo do corpo*/
+main{
+    margin:auto;
+    
+}
+
+main #principal{
+    float:left;
+    height:891px;
+    width:891px;
+    margin-bottom: 10px;
+}
+
+main #principal #imagem{
+    background:url(img/museu.png) no-repeat;
+    height:400px;
+    width:890px;
+
+    background-size: cover;
+}
+
+main #principal #videomapa{
+    padding:20px;
+
+}
+
+main #principal #videomapa #video{
+    float:left;
+
+}
+
+main #principal #videomapa #video ul li a{
+    color:var(--cor-caracteristica);
+}
+
+main #principal #videomapa #video ul li a#last{
+    font-weight: bold;
+}
+
+main #principal #videomapa #video ul li a:hover{
+    text-decoration: underline;
+}
+
+iframe{
+    width: 402px;
+    height: 231px;
+}
+
+main #principal #videomapa #mapa{
+    float:right;
+    width:48%;
+}
+
+main aside{
+    width:350px;
+    float:left;
+    margin-left:20px;
+    background-color:#ebe7dd;
+}
+
+main aside #dep{
+    margin-bottom:10px;
+}
+
+main aside #input-area{
+    padding:20px;
+    background-color: #cdc8b1;
+}
+
+main aside #input-area h3{
+    color: #926a21;
+}
+
+main aside #input-area input[type="number"]{
+    width:30px;
+    margin-bottom:10px;
+}
+
+main aside #input-area input[type="button"]{
+    width:310px;
+    padding:10px;
+    border-color: transparent;
+    font-weight: bolder;
+    font-size: 1.2em;
+    background-color: #a89e89;
+    color:#fff;
+}
+
+main aside #input-area input[type="button"]:hover{
+    cursor: pointer;
+}
+
+main aside #fotos{
+    padding:25px;
+}
+
+main aside #fotos h3{
+    color:#926a21;
+}
+
+main aside #fotos div{
+    display: inline-block;
+    background:url(img/fundo-foto.png);
+    padding:15px;
+    padding-top:16px;
+    clear:both;
+}
+
+footer{
+    margin-top:20px;
+    padding:6px;
+    background: url(img/fundo-rodape.png) top center no-repeat;
+    clear:both;
+    text-align: center;
+}
+
+footer>p a{
+    padding:2px 10px;
+}
+
+footer>p a:hover{
+    color:#a8a029;
+}
+

@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@keyframes button{
+    from{
+        left:0px;
+        top:0px;
+    }
+
+    /*50%{
+        left:50%;
+    }*/
+
+    to{
+        left:200px;
+        top:200px;
+    }
+}
+
+div{
+    background-color: #000;
+    border:2px solid #fff;
+    padding:20px;
+    width:100px;
+    font-size: x-large;
+    border-radius: 19px;
+    color:#00f335;
+    animation:button 5s  alternate infinite;
+    position:relative;
+}
+
+div a{
+    text-decoration: none;
+    color:#fff;
+}
+
+
+

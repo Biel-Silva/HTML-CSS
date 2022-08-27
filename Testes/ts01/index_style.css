@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+article{
+    background-color: aqua;
+    overflow:hidden;
+}
+
+div{
+    width:200px;
+    height:200px;
+    color:white;
+    line-height:200px;
+    text-align:center;
+}
+
+#firstdiv{
+    background-color:blue;
+    float:left;
+}
+
+#lastdiv{
+    background-color:red;
+    float:right;
+}
+
+p{
+    clear:both;
+}

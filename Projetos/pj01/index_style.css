@@ -1,0 +1,427 @@
+@charset "UTF-8";
+
+*{
+    margin:0;
+    padding:0;
+}
+
+:root{
+    --cor_hover:rgb(211, 0, 28);
+    --cor_principal:#294c71;
+    --cor_font:#b10333;
+         
+}
+
+.clear{
+    clear:both;
+}
+
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background:#fff url(imagens/imagens/fundo.png) repeat-x;
+}
+
+#container{
+    width:75%;
+    margin:0 auto;
+    height:230px;
+}
+
+#topo{
+    padding-left:30px;
+    padding-top:25px;
+    background: url(imagens/imagens/detalhe-topo.png) no-repeat right;
+    height:150px;
+}
+
+#logo{
+    background: url(imagens/imagens/logo.png) no-repeat;
+    width:152px;
+    height:66px;
+    margin-bottom:35px;
+    color:transparent;
+}
+
+#topo ul{
+    float:left;
+    background-color:#b10333;
+    padding:0;
+    margin:0;
+    text-align: center;
+}
+
+#topo ul li{
+    float: left;
+    list-style-type: none;
+    text-align: center;
+   
+}
+
+#topo ul li a{
+    font-size: 0.9em;
+    background:  url(imagens/imagens/divisor.png) no-repeat left center;
+    padding:0.5em 1.5em;
+    text-decoration: none;
+    color:white;
+    font-weight:bold;
+    line-height: 3em;
+}
+
+#topo ul li:hover{
+    background-color: var(--cor_hover);
+}
+
+#topo ul #primeiro a{
+    background:none;
+}
+
+main{
+    padding:5px;
+    clear:both;
+    width:1176px;
+    margin-top:3%;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+
+#principal{
+    float:left;
+    width:450px;
+    margin:0 0 10px 250px;
+}
+
+#principal section{
+    background-image: url(imagens/imagens/fundo-caixa.png);
+    padding:10px;
+    margin-bottom:20px;
+}
+
+#principal section > h2{
+    background-color: var(--cor_principal);
+    padding:5px;
+    color:white;
+    margin-bottom:10px;
+}
+
+#principal section article{
+    background-color: white;
+    padding:5px;
+}
+
+#principal section article h3{
+    background-color:rgb(202, 26, 26);
+    display:inline-block;
+    padding:4px;
+    text-transform: uppercase;
+    margin-bottom:5px;
+}
+
+#principal section article > img{
+    width:100%;
+}
+
+#principal section article > a{
+    color:#da0541;
+    font-weight:600;
+}
+
+#principal section #crise{
+    background-color:white;
+}
+
+#principal section #crise div img{
+    width:25%;
+}
+
+#lista-noticias{
+    width:99%;
+}
+
+#lista-noticias li{
+    list-style-type: none;
+    padding:2px;
+    border-bottom:1px solid #ccc;
+    height:65px;
+}
+
+#lista-noticias li a{
+    text-decoration: none;
+    font-size:0.9em;
+}
+
+#lista-noticias li a h3{
+    color:#3e7ab9;
+    font-size:1em;
+    margin-bottom:5px;
+    text-indent: 3px;
+    text-transform: uppercase;
+
+}
+
+#lista-noticias li a p{
+    font-size:0.9em;
+}
+
+#lista-noticias li a img{
+    float:left;
+    margin:5px;
+}
+
+#secundario{
+    float:left;
+    height:1.3em;
+    width:390px;
+    margin:0 0 20px 16px;
+}
+
+#secundario section{
+    background-image: url(imagens/imagens/fundo-caixa.png);
+    padding:10px;
+    margin-bottom:22px;
+}
+
+#secundario section h2{
+    background-color: var(--cor_principal);
+    padding:5px;
+    color:white;
+    margin-bottom:10px;
+
+}
+
+#secundario section #entrevista-secundario {
+    background-color:white;
+    padding:5px;
+}
+
+#secundario section #entrevista-secundario h3{
+    text-transform:uppercase;
+    display: inline-block;
+    margin-bottom:5px;
+    padding:4px;
+    background-color: #da0541;
+    color:#fff;
+}
+
+#secundario section #entrevista-secundario img{
+    width:100%;
+}
+
+#secundario section #entrevista-secundario p{
+    margin-bottom:21px;
+}
+
+#secundario section #entrevista-secundario a{
+    color:#da0541;
+    font-weight: bold;
+
+}
+
+#secundario section #crise #lista-noticias{
+    background-color:white;
+
+}
+
+#lateral{
+    padding:10px;
+    float:left;
+    width:200px;
+    margin:-10px 0 0 -1116px;
+}
+
+#lateral article{
+    background:white url(imagens/imagens/fundo-caixa.png);
+    padding:10px;
+    margin-bottom:20px;
+}
+
+#lateral h2{
+    background-color:var(--cor_principal);
+    padding:6px;
+    color:white;
+}
+
+#lateral ul{
+    background-color:white;
+    padding:12px;
+    margin:10px 0 0 0;
+    list-style-type:none;
+}
+
+#lateral ul li{
+    margin:0 0 1px 0;
+    line-height: 3em;
+}
+
+#lateral ul li a{
+    text-decoration:none;
+    color:black;
+}
+
+#lateral article div{
+    background-color:white;
+    margin:10px 0 0 0;
+    padding: 22px 20px 20px 8px;
+}
+
+#lateral article div input[type="text"]{
+    width:162px;
+    line-height: 2.6em;
+    border:1px solid rgb(202, 202, 202);
+    border-radius: 0;
+    text-indent: 10px;
+    margin-bottom:1px;
+}
+
+#lateral article div input[type="submit"]{
+    padding:5px;
+    height:2.3em;
+    font-size: 0.9em;
+    width:80px;
+    padding:5px;
+    color:white;
+    background-color: var(--cor_font);
+    border:1px solid var(--cor_font);
+    font-weight:bolder;
+}
+
+body ul #Home{
+    background-color: var(--cor_hover);
+}
+
+body ul #Saude{
+    background-color: var(--cor_hover);
+}
+
+body ul #Fotos{
+    background-color: var(--cor_hover);
+}
+
+body ul #Economia{
+    background-color: var(--cor_hover);
+}
+
+body ul #Brasil{
+    background-color: var(--cor_hover);
+}
+
+body ul #Internacional{
+    background-color: var(--cor_hover);
+}
+
+body ul #Ciencia{
+    background-color: var(--cor_hover);
+}
+
+.tres-colunas #principal{
+    float:left;
+    width:450px;
+    margin:0 0 10px 310px;
+}
+
+.duas-colunas #principal{
+    float:left;
+    width:711px;
+    margin:0px 0 0 362px;
+}
+
+.duas-colunas #principal #container-bloco{
+    background: #fff url('imagens/imagens/fundo-caixa.png');
+    padding:10px;
+    margin-bottom:15px;
+}
+
+.duas-colunas #principal #principal-bloco1 #entrevista1-bloco1{
+    background-color: #fff;
+    padding:5px;
+}
+
+.duas-colunas #principal #principal-bloco1 h2{
+    background-color: var(--cor_principal);
+    color:#fff;
+    padding:5px;
+    margin-bottom:4px;
+} 
+
+.duas-colunas #principal #principal-bloco1 h3{
+    background-color: #da0541;
+    padding:5px;
+    text-transform: uppercase;
+    margin-bottom:4px;
+ } 
+
+.duas-colunas #principal #principal-bloco1 img{
+    width:100%;
+    margin-bottom:3px;
+} 
+
+.duas-colunas #principal #principal-bloco1 p{
+    text-align: justify;
+    margin-bottom:2px;
+}
+
+.duas-colunas #principal #principal-bloco1 a{
+    color:#da0541;
+    font-weight:bolder;
+}
+.duas-colunas #principal #not-periferico{
+   background: #fff url('imagens/imagens/fundo-caixa.png');
+   padding:8px;
+}
+
+.duas-colunas #principal #not-periferico h2{
+    background-color: var(--cor_principal);
+    color:#fff;
+    padding:5px;
+    margin-bottom:10px;
+}
+
+.duas-colunas #principal #not-periferico #crise{
+    background-color: #fff;
+    padding:5px;
+}
+
+.duas-colunas #principal #not-periferico #crise img{
+    float:left;
+    width:13%;
+    margin:3px;
+}
+
+.duas-colunas #principal #not-periferico #crise p{
+    margin-left: 5px;
+}
+
+.duas-colunas #lateral{
+    float:left;
+    width:200px;
+    margin:-1046px 0 0 76px;
+}
+
+.duas-colunas #lateral #entrevistas{
+    background: #fff url('imagens/imagens/fundo-caixa.png');
+}
+
+.duas-colunas #lateral article div input[type="email"]{
+    width:162px;
+    line-height: 2.6em;
+    border:1px solid rgb(202, 202, 202);
+    border-radius: 0;
+    text-indent: 10px;
+    margin-bottom:1px;
+}
+
+.uma-coluna #principal{
+    margin:20px auto;
+    background-color:blue;
+    float:left;
+    width:1000px;
+}
+
+footer{
+    margin:120px 0 0 0;
+    clear:both;
+    padding:20px;
+    background: #294c71;
+    color:white;
+    text-align: center;
+}

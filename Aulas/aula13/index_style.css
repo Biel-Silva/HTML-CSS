@@ -1,0 +1,24 @@
+@charset "UTF_8";
+
+#flex_pai{
+    display: flex;
+    width:80%;
+    background-color:#a8a8a8;
+    margin:auto;
+    justify-content: space-around;
+    align-content: center;
+    height:600px;
+}
+
+.flexitens{
+    line-height:6em;
+    height:100px;
+    width:100px;
+    background-color: rgb(218, 103, 103);
+    text-align:center;
+    margin:5px;
+}
+
+#flex_pai #I{
+    flex-shrink:2;
+}

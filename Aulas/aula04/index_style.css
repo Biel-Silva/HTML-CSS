@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main{
+    width:400px;
+    background:#dedede url(imagens/topo.png) no-repeat left top;
+}
+
+h1{
+    padding:10px;
+}
+
+p{
+    padding: 10px;;
+    background:url(imagens/baixo.png) no-repeat center bottom;
+}

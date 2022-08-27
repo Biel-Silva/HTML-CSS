@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: url(recursos/fundo.jpg) no-repeat top ;
+}
+
+#container{
+    width:400px;
+    height:300px;
+    border-radius:10px;
+    margin:0 auto;
+    margin-top:240px;
+    background-color:rgba(255,255,255, 0.3);
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    text-align: center;
+}
+
+#container > img{
+    margin-top:-60px;
+    margin-bottom:30px;;
+    width:120px;
+    height:120px;
+}
+
+input{
+    height:40px;
+    width:80%;
+    font-size:18px;
+    margin-bottom:10px;
+    background-color: #fff;
+    padding-left:40px;
+    border:1px solid rgb(221, 221, 221);
+    background-repeat:no-repeat;
+    background-position: 5px;
+}
+
+input#email{
+    background-image:url(recursos/icone-usuario.png);
+}
+
+input#senha{
+    background-image:url(recursos/icone-cadeado.png);
+    background-position:6px;
+}
+
+input[type="submit"]{
+    color:#fff;
+    background-color:#f59300;
+    border:2px solid #db7d00;
+    padding:10px 0;
+
+    background:linear-gradient(to bottom, #faa600, #f68a00);
+}
+

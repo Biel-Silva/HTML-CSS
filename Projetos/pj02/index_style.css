@@ -1,0 +1,195 @@
+@charset "UTF-8";
+
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:35px;
+    background-image: url(recursos_adicionais/imagens/bg.png);
+}
+
+.clear{
+    clear:both;
+}
+
+.conteudo{
+    margin:0px auto;
+    width:90%;
+}
+
+#container{
+    margin:0 auto;
+    max-width: 1200px;
+    min-width:740px;
+    background: #ede9cc url(recursos_adicionais/imagens/bg-container.png) top center repeat-y;
+}
+
+#container header{
+    margin:auto;
+    height:250px;
+    position:relative;
+}
+
+header #imagem1-header{
+    width:100%;
+    height:250px;
+    background:url(recursos_adicionais/imagens/topo-imagem-principal.png);
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+#imagem1-header img{
+    position: absolute;
+    top:20px;
+    left:16px;
+}
+
+header #conteudo-header{
+    background: url(recursos_adicionais/imagens/topo-imagem-lateral.png);
+    position:absolute;
+    top:0;
+    right:0;
+    width:470px;
+    height: 236px;
+    z-index: 2;
+    padding-top:15px;
+}
+
+header #conteudo-header #locais{
+    margin-left:95px;
+    line-height: 36px;
+    border-top:1px solid #b5ab56;
+    border-bottom:1px solid #b5ab56;
+    display: inline-block;
+}
+
+header #conteudo-header #locais a{
+    text-decoration:none;
+    font-size:.7em;
+    color:#8b8448;
+}
+
+#conteudo-header #locais a:hover{
+    border-radius:5px;
+    background-color: #b5ab56;
+    color:white;
+    padding:4px;
+    transition-duration: .5s;
+}
+
+header #conteudo-header #locais #cad{
+    margin-left:10px;
+    border-radius: 0;
+    border:1px transparent solid;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size:.7em;
+    color:#fff;
+    background-color:rgb(177, 177, 117);
+    padding:5px 8px;
+}
+
+header #conteudo-header #locais #cad:active{
+    box-shadow: inset 1px 1px 1px rgba(116, 109, 71, 0.562);
+}
+
+#conteudo-header nav{
+    display:inline-block;
+}
+
+#conteudo-header ul{
+    list-style-type: none;
+    padding:0;
+    margin-left:95px;
+    margin-top:17px;
+    line-height: 2em;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+#conteudo-header ul li a{
+    font-size:0.9em;
+    text-decoration: none;
+    color:rgb(124, 124, 82);
+}
+
+#conteudo-header ul li a:hover{
+    text-decoration:underline;
+    
+}
+
+#conteudo-header #img{
+    position:absolute;
+    top:71px;
+    right:20px;
+    display: inline-block;
+}
+
+#container_cont1{
+    float: left;
+    background: url(recursos_adicionais/imagens/bg-area-principal.png) repeat-x top center;
+    padding:15px 0px;
+    width:50%;
+}
+
+#container_cont1 article h2{
+    color:#8b8448;
+    margin-bottom:8px;
+}
+
+#container_cont2{
+    float:right;
+    background: url(recursos_adicionais/imagens/bg-area-lateral.png) repeat-x top center;
+    padding:15px 0px;
+    width:50%;
+}
+
+#container_cont2 article ul{
+    list-style-type: none;
+}
+
+#container_cont2 article ul li{
+    height:6em;
+    padding:9px;
+    border-bottom:1px solid #f3efcb;
+}
+
+#container_cont2 article ul li:hover{
+    background:#f6f3d6;
+    cursor:pointer;
+}
+
+#container_cont2 article ul li a{
+    text-decoration: none;
+}
+
+
+#container_cont2 article ul li a img{
+    width:30%;
+    float:left;
+    margin-right:13px;
+}
+
+#container_cont2 article ul li a h3{
+    padding:5px;
+    background: url(recursos_adicionais/imagens/ornamento.png) no-repeat top right;
+    color:#8b8448;
+}
+
+#container_cont2 article ul li a p{
+    font-size: 0.8em;
+    color:#000;
+}
+
+footer{
+    background: #fff url(recursos_adicionais/imagens/bg-rodape.png) repeat-x top center;
+    padding:17px;
+    text-align:center;
+}
+
+
+
