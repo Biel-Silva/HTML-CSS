@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+.quadrado{
+    width:200px;
+    display: inline-block;
+    height:200px;
+    background-color: cornsilk;
+    border-radius:7px;
+    margin:10px;
+}
+
+#q1{
+    background-color: #447fff;
+}
+
+#q2{
+    background:linear-gradient(to top, #ff6f11, #fff199);
+}
+
+#q3{
+    background:url(../../Projetos/pj01/imagens/imagens/fundo-caixa.png)
+}
