@@ -9,6 +9,13 @@
     margin:10px;
 }
 
+body{
+    height: 98vh;
+    border:1px dashed #000;
+    background:url('https://gustavoguanabara.github.io/html-css/imagens/mascote.png') no-repeat left to;
+    background-size: 100px;
+}
+
 #q1{
     background-color: #447fff;
 }
@@ -20,3 +27,4 @@
 #q3{
     background:url(../../Projetos/pj01/imagens/imagens/fundo-caixa.png)
 }
+
