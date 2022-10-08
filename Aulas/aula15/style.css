@@ -14,3 +14,13 @@ table tr td {
     border:1px solid #000000;
 
 }
+
+.cinza{
+    background-color: rgb(136, 136, 136);
+    color:#fff;
+    font-weight:bolder;
+}
+
+.nm{
+    text-align: center;
+}
