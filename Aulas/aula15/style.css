@@ -10,12 +10,16 @@ table{
 }
 
 table{
-    width:500px;
+    width:1000px;
     
 }
 
-tr td, th{
-    padding:8px;
+tr:nth-child(even){
+    background-color:rgb(216, 216, 216)
+}
+
+ td, th{
+    padding:10px;
     border:1px solid #000000;
 }
 
@@ -27,4 +31,12 @@ tr td, th{
 
 .nm{
     text-align: center;
+}
+
+#col1{
+    background-color: green;
+}
+
+div#container{
+    overflow-x: auto;
 }
