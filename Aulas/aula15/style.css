@@ -9,10 +9,14 @@ table{
     border-collapse: collapse;
 }
 
-table tr td {
-    padding:10px;
-    border:1px solid #000000;
+table{
+    width:500px;
+    
+}
 
+tr td, th{
+    padding:8px;
+    border:1px solid #000000;
 }
 
 .cinza{
