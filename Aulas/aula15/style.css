@@ -14,10 +14,6 @@ table{
     
 }
 
-tr:nth-child(even){
-    background-color:rgb(216, 216, 216)
-}
-
  td, th{
     padding:10px;
     border:1px solid #000000;
@@ -31,6 +27,21 @@ tr:nth-child(even){
 
 .nm{
     text-align: center;
+}
+
+.title{
+    background-color: rgb(66, 66, 66);
+    color:#FFF;
+}
+
+caption{
+    padding:10px;
+    background-color:#dfdfdf;
+    font-size: 1.3em;
+}
+
+table tbody tr:nth-child(odd){
+    background-color: rgb(202, 202, 202);
 }
 
 #col1{
