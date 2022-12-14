@@ -18,15 +18,18 @@
 
     <form action="cadastro.php" method="get" autocomplete="on">
 
-        <p>
-            <label for="iemail">Email:</label>
-            <input type="email" name="iemail" id="iemail" required autocomplete="email">
-        </p>
+        <fieldset>
+            <legend>Dados pessoais</legend>
 
-        <p>
-            <label for="icelular">Número de Celular:</label>
-            <input type="tel" name="icelular" id="icelular" required autocomplete="tel" pattern="^\(\d{2}\)\d{4,5}-\d{4}$">
-        </p>
+            <p>
+                <label for="iemail">Email:</label>
+                <input type="email" name="iemail" id="iemail" required autocomplete="email" placeholder="example35@gmail.com">
+            </p>
+            <p>
+                <label for="icelular">Número de Celular:</label>
+                <input type="tel" name="icelular" id="icelular" required autocomplete="tel" pattern="^\(\d{2}\)\d{4,5}-\d{4}$" placeholder="(xx)xxxxx-xxxx">
+            </p>
+        </fieldset>
 
         <p>
             <input type="submit" value="Cadastrar">
