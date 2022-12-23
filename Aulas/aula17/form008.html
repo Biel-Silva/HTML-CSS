@@ -12,11 +12,16 @@
             
         }
 
+        form{
+            display: flex;
+        }
+
         fieldset{
             width:300px;
             border-color:transparent;
             text-align: justify;
             background-color: #c291f0;
+            margin-bottom: 1em;
         }
 
         fieldset > legend{
@@ -42,21 +47,57 @@
 </head>
 
 <body>
-    <form action="cadastro.php" method="post" autocomplete="on">
-        <fieldset>
-            <h1>Email e senha</h1>
 
-            <label for="iemail">Email:</label><br>
-            <input type="email" id="iemail" name="email" required autocomplete="email">
-
-            <div id="botoes">
-                <input type="submit" value="Cadastrar" style="display:block;">
-                <input type="reset" value="Limpar" style="width:75px;">
+    <div id="container">
+        <form action="cadastro.php" method="post" autocomplete="on" id="form1">
+            <div>
+                <fieldset>
+                    <h1>Email e senha</h1>
+                    <label for="iemail">Email:</label><br>
+                    <input type="email" id="iemail" name="email" required autocomplete="email">
+                    <div id="botoes">
+                        <input type="submit" value="Cadastrar" style="display:block;">
+                        <input type="reset" value="Limpar" style="width:75px;">
+                    </div>
+                    <label for="isenha">Senha:</label><br>
+                    <input type="password" name="senha" id="isenha" required autocomplete="new-password">
+                </fieldset>
             </div>
-<br>
-            <label for="isenha">Senha:</label><br>
-            <input type="password" name="senha" id="isenha" required autocomplete="new-password">
-        </fieldset>
-    </form>
+
+            <div>
+                <fieldset>
+                    <h1>Dados básicos</h1>
+                    <label for="nome">Nome:</label>
+                    <input type="text" autocomplete="name" required>
+                        
+                        <br>
+                    <label for="isexo">Sexo:</label>
+                    <input type="radio" name="sexo" id="isexo">Masculino
+                    <input type="radio" name="sexo" id="isexo">Feminino
+                        <br>
+                    <label for="idata">Data de Nascimento:</label>
+                    <input type="date">
+                        <br>
+                    <label for="iestado">Estado civil:</label>
+                    <select name="estado" id="iestado" form="form1">
+                        <option value="casado">Casado(a)</option>
+                        <option value="solteiro">Solteiro(a)</option>
+                        <option value="viuvo">Viúvo(a)</option>
+                        <option value="namorando">Namorando</option>
+                    </select>
+                </fieldset>
+            </div>
+
+            <fieldset>
+                <h1>Dados acadêmicos</h1>
+                <label for="iestado">Estado profissional:</label>
+                <select name="emp" id="iemp">
+                    <option value="empregado">Empregado</option>
+                    <option value="desempregado">Desempregado</option>
+                    <option value="micro_emp">Micro empresário</option>
+                </select>
+            </fieldset>
+        </form>
+    </div>
 </body>
 </html>
